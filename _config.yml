@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
+site_theme               : "air" # Currently available options are "default", "air"
 title                    : "Wandi Xu / Site Title"
 title_separator          : "-"
 name                     : "Wandi Xu"
@@ -24,13 +24,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "11.JPG"
-  name             : "Your Sidebar Name"
+  name             : "WandiXu"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Maryland"
+  employer         : "Johns Hopkins University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "wandixu8266@gmail.com" 
 
   # Academic websites
   academia         : # URL
