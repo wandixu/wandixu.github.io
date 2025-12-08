@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "air" # Currently available options are "default", "air"
-title                    : "Wandi Xu / Site Title"
+title                    : "Wandi Xu / Computational Chemistry"
 title_separator          : "-"
 name                     : "Wandi Xu"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -26,9 +26,9 @@ author:
   avatar           : "11.JPG"
   name             : "WandiXu"
   pronouns         : # example: "she/her"  
-  bio              : "Wandi Xu is a PhD student in Chemistry at Johns Hopkins University with expertise in molecular dynamics, nanomaterials modeling, and high-performance computing.
-Her work focuses on understanding nanoparticle–protein interactions and validating multiscale simulation methods for complex biological and environmental systems.
-She is experienced in NAMD, GROMACS, LAMMPS, Python analysis, and computational workflows on large-scale clusters, and is interested in computational roles in research, industry, and sustainable technologies."
+  bio              : "Wandi Xu is a PhD student in Chemistry at Johns Hopkins University.
+Her research centers on molecular dynamics and nanomaterials modeling, with a particular focus on nanoparticle–protein interactions and the development of reliable multiscale simulation approaches for biological and environmental systems.
+She works extensively with NAMD, GROMACS, LAMMPS, Python-based analysis, and high-performance computing environments, and is interested in applying computational methods to challenges in research, industry, and sustainable technologies."
   location         : "Maryland"
   employer         : "Johns Hopkins University"
   uri              : # URL
