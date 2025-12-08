@@ -41,9 +41,8 @@ Skills
 * Quantum Espresso, Blender   
 
 **Programming & Data Analysis**  
-* Python (NumPy, Pandas, Matplotlib), Bash  
-* Git version control, workflow automation, scientific computing  
-* MATLAB, LaTeX  
+* Python (NumPy, Pandas, Matplotlib), MATLAB, LaTeX   
+* Git, , Bash 
 * ChemDraw, MestReNova, ImageJ, Microsoft Office Suite  
 
 **Experimental Background**  
