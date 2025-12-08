@@ -30,21 +30,24 @@ Research Experience
   * Conduct research in molecular dynamics and computational nanoscience, with a focus on nanoscale vesicles and nanoparticle–protein interactions.  
   * Develop and analyze all-atom, coarse-grained (MARTINI), and DPD models to study structural and dynamical behavior in soft-matter systems.  
   * Investigate binding mechanisms between MPA-coated gold nanoparticles and small proteins, and evaluate structural responses using long-timescale simulations.  
-
-Work experience
-======
-
-
-
-  
+ 
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
+**Computational Chemistry & Simulation**  
+* NAMD, GROMACS, LAMMPS, VMD  
+* All-atom, coarse-grained (MARTINI), and DPD modeling  
+* Quantum Espresso (basic experience), Blender   
+
+**Programming & Data Analysis**  
+* Python (NumPy, Pandas, Matplotlib), Bash  
+* Git version control, workflow automation, scientific computing  
+* MATLAB, LaTeX  
+* ChemDraw, MestReNova, ImageJ, Microsoft Office Suite  
+
+**Experimental Background**  
+* Experience with core molecular biology techniques, including qPCR, microscopy, NanoDrop-based quantification, and basic cell-culture workflows  
+
 
 Publications
 ======
@@ -60,9 +63,14 @@ Talks
   
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
+* **Teaching Assistant, Johns Hopkins University — Department of Chemistry**  
+  * Supported undergraduate physical chemistry coursework by holding office hours, leading problem-solving sessions, and assisting students with core concepts.  
+  * Provided feedback on assignments and helped clarify theoretical foundations and computational approaches relevant to course material.
+
+* **Mentoring and Peer Support**  
+  * Informally mentored fellow graduate students and undergraduate researchers on molecular dynamics workflows, simulation setup, and Python-based data analysis.
+
   
 Service and leadership
 ======
