@@ -26,7 +26,9 @@ author:
   avatar           : "11.JPG"
   name             : "WandiXu"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Wandi Xu is a PhD student in Chemistry at Johns Hopkins University with expertise in molecular dynamics, nanomaterials modeling, and high-performance computing.
+Her work focuses on understanding nanoparticle–protein interactions and validating multiscale simulation methods for complex biological and environmental systems.
+She is experienced in NAMD, GROMACS, LAMMPS, Python analysis, and computational workflows on large-scale clusters, and is interested in computational roles in research, industry, and sustainable technologies."
   location         : "Maryland"
   employer         : "Johns Hopkins University"
   uri              : # URL
@@ -40,7 +42,7 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/0009-0009-4984-0004"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 
