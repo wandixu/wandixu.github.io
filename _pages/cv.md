@@ -19,7 +19,7 @@ Research Experience
 ======
 * **Research Assistant** — Institute on the Biology of Aging and Metabolism, University of Minnesota, Twin Cities  
   **Oct 2020 – Jan 2022 | Minneapolis, USA**  
-  *Advisor: Prof. Paul Robbins; Co-mentor: Prof. Lei Justan Zhang*  
+  *Advisor: [Prof. Paul Robbins](https://robbins.umn.edu/dr-paul-robbins-phd); Co-mentor: [Prof. Lei Justan Zhang](https://ils.uga.edu/team/zhang-lei-justan/)*  
   * Contributed to projects investigating DNA repair, gene expression, and enzyme activity in aging-related pathways.  
   * Participated in studies involving non-homologous end-joining (NHEJ), PCR-based gene expression analysis, and SIRT6 activity assays.  
   * Supported experimental design, sample preparation, and data interpretation across multiple molecular biology assays.  
