@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Ph.D in Chemistry, Johns Hopkins, 2027 (expected)
-* B.S. in Chemistry, University of Minneasota, Twin Cities, 2020
+* B.S. in Chemistry, University of Minneasota, Twin Cities, 2022
 
 
 Research Experience
