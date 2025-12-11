@@ -71,7 +71,3 @@ Teaching
 * **Mentoring and Peer Support**  
   * Informally mentored fellow graduate students and undergraduate researchers on molecular dynamics workflows, simulation setup, and Python-based data analysis.
 
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
