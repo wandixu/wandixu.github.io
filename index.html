@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wandi Xu | Computational Chemist</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <span class="nav-logo">WX</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <canvas class="molecule-canvas" id="moleculeCanvas"></canvas>
+    <div class="hero-content">
+      <p class="hero-tag">Computational Chemistry · Molecular Simulation · Data Science</p>
+      <h1 class="hero-name">Wandi Xu</h1>
+      <p class="hero-sub">
+        PhD Candidate at Johns Hopkins University, bridging molecular simulation and data-driven methods to understand
+        <em>materials,data driven sidcovery and nanoscale matter — from lipid membranes to protein–nanoparticle interfaces.</em>
+      </p>
+      <div class="hero-cta">
+        <a href="#research" class="btn btn-primary">View My Research</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrap">
+          <img src="11.JPG" alt="Wandi Xu" class="about-photo" />
+        </div>
+        <div class="about-text">
+          <h2 class="section-title">About Me</h2>
+          <p>
+            I'm a PhD candidate in <strong>computational chemistry</strong> at Johns Hopkins University, using molecular dynamics simulations, quantum chemistry calculations and machine leatning to understand how nanoscale structure drives biological and materials function.
+          </p>
+          <p>
+            My research sites at the intersection of physical chemistry, applying computational and data science skills to real-world challenges in
+            <strong>materials discovery</strong>, <strong>personal care & cosmetics formulation</strong>,
+            and <strong>R&D consulting</strong>. I've contributed to 6 publications and peer-reviewed for <em>Scientific Reports</em>.
+          </p>
+          <p>
+            Outside the lab, I enjoy reading, paint in watercolor and acrylic, sketch, and stay active through hiking, tennis, badminton, swimming, and snowboarding.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Years Research</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">6</span>
+              <span class="stat-label">Publications</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title centered">Skills & Tools</h2>
+      <p class="section-sub centered">A toolkit built across computation, chemistry, and data.</p>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon">⚗️</div>
+          <h3>Computational Chemistry</h3>
+          <ul>
+            <li>Molecular Dynamics (GROMACS, LAMMPS, NAMD)</li>
+            <li>All-atom & coarse-grained MD (MARTINI, DPD)</li>
+            <li>Quantum Chemistry (Quantum ESPRESSO, ORCA, VESTA)</li>
+            <li>Free Energy minimization</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">💻</div>
+          <h3>Programming & Computing</h3>
+          <ul>
+            <li>Python, (NumPy, Pandas, SciPy) Matlab</li>
+            <li>Git, LaTeX, Bash / Shell scripting</li>
+            <li>Machine Learning (PyTorch)</li>
+            <li>Blender (3D visualization)</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">📊</div>
+          <h3>Data Analysis & Visualization</h3>
+          <ul>
+            <li>VMD (molecular visualization)</li>
+            <li>ChemDraw, MestReNova</li>
+            <li>ImageJ, iBright</li>
+            <li>Structural analysis: RMSD, Rg, RDF, Van Hove</li>
+            <li>Blender (3D visualization)</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🔬</div>
+          <h3>Laboratory Skills</h3>
+          <ul>
+            <li>Cell culture, transfection, drug treatment</li>
+            <li>RNA extraction, PCR, gel electrophoresis</li>
+            <li>Thermo Scientific NanoDrop, qPCR</li>
+            <li>Microscopy, iBright imaging</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Research -->
+  <section class="section" id="research">
+    <div class="container">
+      <h2 class="section-title centered">Research Experience</h2>
+      <p class="section-sub centered">What I've been working on.</p>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Aug 2022 — Present</span>
+            <h3>Research Assistant — Johns Hopkins University</h3>
+            <p class="timeline-advisor">Advisor: Prof. Rigoberto Hernandez · Baltimore, MD</p>
+            <p>
+              Developing and validating multiscale molecular simulation models to investigate the structural and dynamical properties of lipid vesicles (12–60 nm) and protein–nanoparticle interfaces. Work spans all-atom, MARTINI coarse-grained, and dissipative particle dynamics (DPD) approaches, with validation via bilayer thickness, scattering analyses, Van Hove functions, and RMSD/Rg metrics.
+            </p>
+            <div class="timeline-tags">
+              <span>Nano</span>
+              <span>GROMACS</span>
+              <span>MARTINI / DPD</span>
+              <span>All-atom MD</span>
+              <span>Python</span>
+              <span>CHARMM FF</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Oct 2020 — Jan 2022</span>
+            <h3>Research Assistant — University of Minnesota, Twin Cities</h3>
+            <p class="timeline-advisor">Advisors: Prof. Paul Robbins & Prof. Lei Justan Zhang · Minneapolis, MN</p>
+            <p>
+              Conducted wet-lab research at the Institute on the Biology of Aging and Metabolism, investigating senolytic drug mechanisms. Performed NHEJ assays, RNA extraction and PCR across multiple mouse tissues, and optimized self-mono-ADP-ribosylation assays to study SIRT6 enzyme activity — contributing to multiple published senolytic drug studies.
+            </p>
+            <div class="timeline-tags">
+              <span>Aging</span>
+              <span>Cell Culture</span>
+              <span>PCR / qPCR</span>
+              <span>Gel Electrophoresis</span>
+              <span>ImageJ</span>
+              <span>Drug Screening</span>
+              <span>Drug discovery</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <h2 class="section-title centered">Projects</h2>
+      <p class="section-sub centered">Selected research projects and contributions.</p>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-number">01</div>
+          <h3>Multiscale Lipid Vesicle Simulations</h3>
+          <p>
+            Built a 12 nm all-atom DPPC vesicle and coarse-grained vesicles (12–60 nm) using MARTINI and DPD. Validated structural and dynamical consistency across scales through bilayer thickness, tail end-to-end distances, density distributions, Van Hove functions, and scattering analyses.
+          </p>
+          <div class="project-tags">
+            <span>GROMACS</span>
+            <span>MARTINI</span>
+            <span>DPD</span>
+            <span>Python</span>
+          </div>
+          <div class="project-links">
+            <a href="https://doi.org/10.1021/acsomega.XXXXXX" class="project-link">Paper (in revision) →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">02</div>
+          <h3>Protein–Gold Nanoparticle Binding</h3>
+          <p>
+            Performed all-atom MD simulations of MPA-coated gold nanoparticles interacting with cytochrome c, aprotinin, and ubiquitin. Identified key binding residues and analyzed structural responses (RMSD, Rg, secondary structure) over 100–200 ns trajectories.
+          </p>
+          <div class="project-tags">
+            <span>All-atom MD</span>
+            <span>CHARMM FF</span>
+            <span>NAMD</span>
+            <span>VMD</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Paper (in preparation) →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">03</div>
+          <h3>Engineering Ligand Nanoparticle with planer lipid Surfaces</h3>
+          <p>
+            Constructing all-atom models of MUA- and MUTAB-functionalized gold nanoparticles using CHARMM parameters. Investigating structural and dynamical properties of ligand surfaces as a function of ligand composition and solution conditions.
+          </p>
+          <div class="project-tags">
+            <span>GROMACS</span>
+            <span>OPLS</span>
+            <span>Nanoparticles</span>
+            <span>DPD</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">In Progress →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">04</div>
+          <h3>Senolytic Drug Mechanism Studies</h3>
+          <p>
+            Contributed experimental work to three published senolytic drug studies — including flavonoid-based senolytics, ferroptosis-inducing lipid senolytics, and fucoidan senotherapeutics enhancing SIRT6-dependent DNA repair.
+          </p>
+          <div class="project-tags">
+            <span>Cell Biology</span>
+            <span>Drug discovery</span>
+            <span>PCR</span>
+          </div>
+          <div class="project-links">
+            <a href="https://doi.org/10.1101/2024.10.27.620529" class="project-link">Paper 1 →</a>
+            <a href="https://doi.org/10.21203/rs.3.rs-6613032/v1" class="project-link">Paper 2 →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section" id="education">
+    <div class="container">
+      <h2 class="section-title centered">Education</h2>
+      <div class="edu-list">
+
+        <div class="edu-item">
+          <div class="edu-degree">
+            <span class="edu-level">PhD</span>
+            <div>
+              <h3>Chemistry — Computational & Theoretical</h3>
+              <p class="edu-school">Johns Hopkins University · 2022 — Present · Baltimore, MD</p>
+              <p class="edu-detail">Advisor: Prof. Rigoberto Hernandez · Hernandez Group</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-degree">
+            <span class="edu-level">BS</span>
+            <div>
+              <h3>[Chemistry & Application Mathmatic]</h3>
+              <p class="edu-school">The University of Minneasota - Twin Cities · 2018 - 2022 · Minneapolis, MN </p>
+              <p class="edu-detail">Dean list, 3.9, Dr.Paul Robbins · Robbins Lab </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pubs">
+        <h3 class="pubs-title">Publications</h3>
+        <ol class="pubs-list">
+          <li>
+            <strong>Xu, Wandi</strong> et al. "Structural and Dynamical Consistency in Vesicles across All-atom, MARTINI and Dissipative Particle Dynamics."
+            <em>ACS Omega</em>, 2026. <span class="pub-status">In revision</span>
+          </li>
+          <li>
+            Zhang, Lei Justan et al. "Polyunsaturated lipid senolytics exploit a ferroptotic vulnerability in senescent cells."
+            <em>Cell Press Blue</em> 1.1, 2026.
+            <a href="https://doi.org/10.1016/j.cpblue.2026.100004" target="_blank">DOI →</a>
+          </li>
+          <li>
+            Zhang, Lei et al. "Fucoidans are senotherapeutics that enhance SIRT6-dependent DNA repair."
+            <em>Research Square</em>, June 2025.
+            <a href="https://doi.org/10.21203/rs.3.rs-6613032/v1" target="_blank">DOI →</a>
+          </li>
+          <li>
+            Zhang, Lei et al. "Development of novel flavonoid senolytics through phenotypic drug screening and drug design."
+            <em>bioRxiv</em>, Oct. 2024.
+            <a href="https://doi.org/10.1101/2024.10.27.620529" target="_blank">DOI →</a>
+          </li>
+          <li>
+            Zhang, Lei et al. "Identification of lipid senolytics targeting senescent cells through ferroptosis induction."
+            <em>bioRxiv</em>, Oct. 2024.
+            <a href="https://doi.org/10.1101/2024.10.14.618023" target="_blank">DOI →</a>
+          </li>
+          <li>
+            Deng, Chaoyi et al. "Nanoscale Iron (Fe₃O₄) Surface Charge Controls Fusarium Suppression and Nutrient Accumulation in Tomato."
+            <em>ACS Sustainable Chemistry &amp; Engineering</em> 12.35, pp. 13285–13296, Aug. 2024.
+            <a href="https://doi.org/10.1021/acssuschemeng.4c04800" target="_blank">DOI →</a>
+          </li>
+        </ol>
+        <p class="academic-service">Academic service: Peer reviewer for <em>Scientific Reports</em> (2 manuscripts)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section-dark" id="contact">
+    <div class="container">
+      <h2 class="section-title centered light">Let's Connect</h2>
+      <p class="section-sub centered light">
+        Open to opportunities in computational chemistry, data science, R&amp;D, and the personal care &amp; cosmetics industry.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:wxu68@jh.edu" class="contact-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          wxu68@jh.edu
+        </a>
+        <a href="https://www.linkedin.com/in/wandi-xu-1ab74816b/" target="_blank" class="contact-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/wandixu" target="_blank" class="contact-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          GitHub
+        </a>
+        <a href="cv.pdf" target="_blank" class="contact-btn contact-btn-accent">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10,9 9,9 8,9"/></svg>
+          Download CV
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Wandi Xu · Built with curiosity.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
